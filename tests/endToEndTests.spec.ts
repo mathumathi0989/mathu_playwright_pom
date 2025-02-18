@@ -17,4 +17,5 @@ test.only('productCheckoutTest', async ({ page }) => {
   await productDetail.getProductDetails();
   await checkout.getCheckoutDetails();
   page.close();
+  
 });
